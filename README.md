@@ -1,4 +1,4 @@
-# Vue Styled Components TypeScript Syntax Plugin
+# Vue Styled Plugin
 
 A Vite plugin that provides TypeScript generic syntax support for Vue Styled Components, similar to React styled-components.
 

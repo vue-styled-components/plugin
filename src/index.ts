@@ -36,7 +36,7 @@ export interface PluginOptions {
  * Vue Styled Components TypeScript Syntax Plugin
  * @param options Plugin configuration options
  */
-export default function typescriptSyntaxPlugin(options: PluginOptions = {}): Plugin {
+export default function vueStyledPlugin(options: PluginOptions = {}): Plugin {
   const {
     debug = false,
     logLevel = 'error',
@@ -60,7 +60,7 @@ export default function typescriptSyntaxPlugin(options: PluginOptions = {}): Plu
 
   // Return Vite plugin configuration
   return {
-    name: 'vue-styled-components:typescript-syntax',
+    name: 'vue-styled-plugin',
     enforce: 'pre',
 
     transform(code, id) {

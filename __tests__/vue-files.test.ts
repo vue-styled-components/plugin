@@ -1,6 +1,6 @@
 import type { Plugin } from 'vite'
 import { describe, expect, it } from 'vitest'
-import vueStyledComponentsTypescriptSyntax from '../index'
+import vueStyledComponentsTypescriptSyntax from '../src/index'
 import { extractPropsFromCode } from './normalize'
 
 describe('vue文件处理', () => {
