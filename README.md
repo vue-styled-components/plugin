@@ -2,7 +2,7 @@
 
 A Vite plugin that provides TypeScript generic syntax support for Vue Styled Components, similar to React styled-components.
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The current plugin is not fully mature and may not completely support complex TypeScript types.
 
 ## Features
